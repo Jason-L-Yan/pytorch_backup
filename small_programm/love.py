@@ -57,6 +57,7 @@ for epoch in range(num_epochs):
     print('epoch %d ,loss %f ' % (epoch + 1, train_1.mean().item()))
 print(true_w, '\n', w)  # 查看预测值，与实际值是否很相近
 print(true_b, '\n', b)         
+
 print("nihao")    
 
 
