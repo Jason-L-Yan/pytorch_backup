@@ -21,7 +21,7 @@
         {
             "label": "python",
             "type": "shell",
-            "command": "D:/python/python.exe",
+            "command": "F:\\Users\\jason\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
              "args": [
                 "${file}"
             ],
