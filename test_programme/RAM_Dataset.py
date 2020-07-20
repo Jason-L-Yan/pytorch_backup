@@ -2,6 +2,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 import tqdm
 import cv2
+import torch
 
 
 class RAMDataset(Dataset):
