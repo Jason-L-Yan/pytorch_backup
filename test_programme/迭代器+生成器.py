@@ -1,7 +1,8 @@
 num = [1, 2, 3, 4, 5]
 num = iter(num)
 print(num)
-
+x = list(num)
+print(x)
 # ######################### 迭代器 ##############################
 # # 迭代器可以通过 next 进行遍历
 # print(next(num))  # 1
@@ -34,13 +35,12 @@ print(num)
 
 def fib(max):
     n, a, b = 0, 0, 1
-    print("停")
     while n < max:
         yield b
-        a, b = b, a + b 
+        a, b = b, a + b
         n += 1
 
 
 data = fib(10)
-for num in data:
-    print(num)
+for i in data:
+    print(i)
