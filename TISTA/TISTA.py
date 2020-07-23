@@ -22,8 +22,8 @@ import math
 import time
 
 # device
-device = torch.device('cpu')  # choose 'cpu' or 'cuda'
-
+# device = torch.device('cpu')  # choose 'cpu' or 'cuda'
+device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
 # global variables
 
 N = 500  # length of a source signal vector
