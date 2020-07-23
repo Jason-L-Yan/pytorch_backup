@@ -4,6 +4,9 @@ import torch
 注意：TensorDataset 中的参数必须是 tensor"""
 a = torch.tensor([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 b = torch.tensor([44, 55, 66])
-train_ids = TensorDataset(a, b) 
+train_ids = TensorDataset(a, b)
+
+print(train_ids[0:2])  # 切片
+print('=' * 80)
 for x_train, y_label in train_ids:
     print(x_train, y_label)
