@@ -18,4 +18,4 @@ def bar_chart() -> Bar:
     return c
 
 
-make_snapshot(snapshot, bar_chart().render(), r"E:/GitHub/pytorch_backup/small_programm/bar777.svg")
+make_snapshot(snapshot, bar_chart().render(), r"bar888.jpeg")
